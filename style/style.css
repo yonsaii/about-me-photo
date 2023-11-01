@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial;
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    background: black;
+    padding: 15px 0;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.header {
+    background: url(../img/headerBg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#dbr {
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+#call {
+    color: #000;
+    font-size: 35px;
+    font-weight: 700;
+    background: white;
+    padding: 10px 23px;
+}
+
+.header-nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav ul {
+    display: flex;
+    gap: 82px;
+
+}
+
+.logo {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700px;
+}
+
+.logo:hover {
+   color: black !important;
+}
+
+
+.header-nav ul a {
+    color: #FFF;
+    font-size: 25px;
+}
+
+.header {
+    background: url(../img/headerBg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 145px;
+}
+
+.header-content a {
+    color: #000;
+    font-size: 35px;
+    font-weight: 700;
+    background: white;
+    border-radius: 10px;
+    padding: 10px 24px;
+    transition: 500ms;
+}
+
+.header-content a:hover {
+    color: white;
+    background-color: black;
+    transform: scale(1.2);
+
+}
+
+.header-nav li:hover {
+    transform: scale(1.2);
+}
+
+.header-nav li {
+    transition: 500ms;
+}
+
+.container a{
+    transition: 500ms;
+}
+
+.container a:hover{
+    color: white;
+    background-color: black;
+    transform: scale(1.2);
+}
